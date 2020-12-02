@@ -1,0 +1,11 @@
+@EndUserText.label: 'Ac for ZC travel MIK'
+@MappingRole: true
+define role ZC_RAP_TRAVEL_MIK {
+    grant
+        select
+            on
+                ZC_RAP_TRAVEL_MIK
+                    where
+                        inheriting conditions from entity zi_rap_travel_mik;
+                        
+}
